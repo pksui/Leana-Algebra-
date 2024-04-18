@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Math",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "线性系统的解集.html",
+    "href": "线性系统的解集.html",
+    "title": "2  线性系统的解集",
+    "section": "",
+    "text": "2.1 齐次线性方程\n首先我要介绍一下什么是齐次线性方程？我们在之前已经学过什么是线性方程了，那前面加上个齐次（homogeneous）意味着这个线性方程有什么特性呢？\n其实齐次线性方程只是线性方程的一种特殊情况，如果一个线性方程写成矩阵与向量相乘的形式（matrix-vector），那么它应该长成下面的样子： \\[\nA\\mathbf{x}=\\mathbf{b}\n\\] 那么齐次线性方程就是线性方程中的 \\(\\mathbf{b}\\) 变成具体 \\(\\mathbf{0}\\)，这时方程变成了下面的样子： \\[\nA\\mathbf{x} = \\mathbf{0}\n\\]\n这时注意，如果A是一个m*n的矩阵，那么 \\(\\mathbf{x}\\) 和 \\(\\mathbf{0}\\) 分别是n阶和m阶向量。\n可以肯定的是，这个方程肯定有一个解，就是隶属于 \\(\\mathbb{R}^n\\) 的 \\(\\mathbf{0}\\) ，我们把这个解称为平凡解（trivial solution）。那针对齐次线性方程一个重要的问题就是它的解集是不是唯一的，因为它肯定存在一个解嘛，所以存在性（existence）的问题就不存在了。\n那么如何判断唯一性的问题呢？就是通过下面的一个定理来去判断：",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>线性系统的解集</span>"
+    ]
+  },
+  {
+    "objectID": "线性系统的解集.html#齐次线性方程",
+    "href": "线性系统的解集.html#齐次线性方程",
+    "title": "2  线性系统的解集",
+    "section": "",
+    "text": "定理\n\n\n\n齐次线性方程 \\(A\\mathbf{x}=\\mathbf{b}\\) 有非平凡解的情况是当且仅当这个方程有至少一个自由解。\n\n\n\n2.1.1 Example 1",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>线性系统的解集</span>"
+    ]
+  }
+]
