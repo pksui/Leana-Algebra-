@@ -34,7 +34,7 @@
     "href": "线性系统的解集.html#齐次线性方程",
     "title": "2  线性系统的解集",
     "section": "",
-    "text": "定理\n\n\n\n齐次线性方程 \\(A\\mathbf{x}=\\mathbf{b}\\) 有非平凡解的情况是当且仅当这个方程有至少一个自由解。\n\n\n\n2.1.1 Example 1",
+    "text": "定理\n\n\n\n齐次线性方程 \\(A\\mathbf{x}=\\mathbf{b}\\) 有非平凡解的情况是当且仅当这个方程有至少一个自由解。\n\n\n\n2.1.1 Example 1\n判断下面这个线性系统是否有一非平凡解，然后描述它的解集。 \\[\\begin{align}\n3x_1 + 5x_2 - 4x_3 = 0 \\\\\n-3x_1 -2x_2 + 4x_3 = 0 \\\\\n6x_1 + x_2 -8x_3 = 0\n\\end{align}\\]",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>线性系统的解集</span>"
     ]
